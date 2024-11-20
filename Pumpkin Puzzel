@@ -27,17 +27,17 @@ print(
            ilmk `""9WQQggyyyyyygyyyyyQggQWQH '''
 )
 print("Find the candies in pumpkin")
-n=input("go left or right: ")
+n=input("go left or right: ").lower()
 if n=="left":
     print("you got a glowy eyes small pumpkin")
-    a=input("what should we do now open or leave: ")
+    a=input("what should we do now open or leave: ").lower()
     if a=='open':
         print("you got a clue and helping weapon to fight with ghosts")
         print("you have reached to a house which looks haunted go inside and search or no")
-        b=input("enter search or no: ")
+        b=input("enter search or no: ").lower()
         if b=='search':
             print("after entering you got to see 4 boxes")
-            c=input("choose one box 'black' or 'red' or 'blue or 'pink' : ")
+            c=input("choose one box 'black' or 'red' or 'blue or 'pink' : ").lower()
             if c=='black':
                 print("GAME OVER")
             elif c=='red':
