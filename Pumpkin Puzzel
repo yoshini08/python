@@ -33,7 +33,7 @@ if n=="left":
     a=input("what should we do now open or leave: ")
     if a=='open':
         print("you got a clue and helping weapon to fight with ghosts")
-        print("you have reached a home which looks haunted go inside search or no")
+        print("you have reached to a house which looks haunted go inside and search or no")
         b=input("enter search or no: ")
         if b=='search':
             print("after entering you got to see 4 boxes")
@@ -41,7 +41,7 @@ if n=="left":
             if c=='black':
                 print("GAME OVER")
             elif c=='red':
-                print("GAME OVER")
+                print(Someone else have taken your candies,GAME OVER")
             elif c=='blue':
                 print("CONGRATS!!!YOU HAVE WON 50 CANDIES")
             elif c=='pink':
@@ -50,8 +50,8 @@ if n=="left":
         else :
             print("GAME OVER")
     else:
-        print("Game Over")
+        print("There is a spooky ghost,Game Over")
 else:
-    print('''There is a spooky ghost,
+    print('''You have fell into a hole,
           GAME OVER''')
 
